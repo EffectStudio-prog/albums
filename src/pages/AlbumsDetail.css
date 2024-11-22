@@ -1,0 +1,53 @@
+/* Album Details Page Styles */
+.album-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Vertically center the content */
+    min-height: 100vh; /* Ensure full screen height */
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .album-details-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .photos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    max-height: 500px; /* Set a max height to make the container scrollable */
+    overflow-y: auto;  /* Allow vertical scrolling */
+    padding-right: 10px; /* Adds a little padding for scrollbar */
+    margin-top: 20px;
+  }
+  
+  .photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .photo-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .photo-item p {
+    font-size: 14px;
+    color: #555;
+  }
+  

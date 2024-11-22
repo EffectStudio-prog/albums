@@ -1,0 +1,57 @@
+/* Albums Page Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .albums-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .albums-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .albums-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .albums-container li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    text-align: left;
+    transition: background-color 0.3s ease;
+  }
+  
+  .albums-container li:hover {
+    background-color: #ffffff;
+  }
+  
+  .album-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+  }
+  
+  .album-link:hover {
+    text-decoration: underline;
+  }
+  
